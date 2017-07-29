@@ -10,10 +10,7 @@ var params = {
   Destination: {
     BccAddresses: [], 
     CcAddresses: [], 
-    ToAddresses: [
-      "success@simulator.amazonses.com",
-      "klaus@kinonation.com"
-    ]
+    ToAddresses: [ process.env.email_group ]
   }, 
   Message: {
     Body: {
